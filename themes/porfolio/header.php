@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>WP2STATIC</title>
+        <title><?php echo get_bloginfo( 'name' ); ?></title>
         <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/favicon.png" type="image/gif" sizes="16x16">
         <meta charset="UTF-8">
          <!-- GOOGLE-FONT -->
